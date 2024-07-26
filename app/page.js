@@ -1,5 +1,10 @@
+
+import Container from "./components/Container";
+
 export default function Home() {
   return (
-      <h1 className="text-3xl" >Header</h1>
+    <div className="flex justify-center w-full h-screen " >
+      <Container/>
+    </div>
   );
 }
